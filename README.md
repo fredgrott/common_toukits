@@ -1,4 +1,4 @@
-![image header](./media/image-header.png)
+![image header](./media/repo-image-header.png)
 
 # Common To UI Kits
 
