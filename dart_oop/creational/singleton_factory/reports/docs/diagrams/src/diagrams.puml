@@ -1,0 +1,11 @@
+@startuml
+set namespaceSeparator ::
+
+class "singleton_factory::singleton_factory.dart::Singleton" {
+  {static} -Singleton _singleton
+}
+
+"singleton_factory::singleton_factory.dart::Singleton" o-- "singleton_factory::singleton_factory.dart::Singleton"
+
+
+@enduml
