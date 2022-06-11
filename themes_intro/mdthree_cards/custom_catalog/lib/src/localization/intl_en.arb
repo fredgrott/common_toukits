@@ -1,0 +1,6 @@
+{
+  "appTitle": "custom_catalog",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}

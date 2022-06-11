@@ -1,0 +1,9 @@
+code generation is:
+
+flutter packages pub run build_runner build
+
+to generate the screenshots same command as goldens ie;
+
+flutter test --update-goldens
+
+screenshots will appear in the test subfolder

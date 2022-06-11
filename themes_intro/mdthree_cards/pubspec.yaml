@@ -7,14 +7,12 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.17.0-69.2.beta <3.0.0"
+  sdk: '>=2.18.0-44.1.beta <3.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
   flutter_localizations:
-    sdk: flutter
-  flutter_web_plugins:
     sdk: flutter
   google_fonts: ^2.3.1
   font_awesome_flutter: ^9.2.0
@@ -22,24 +20,15 @@ dependencies:
   intl: ^0.17.0
   # localization automation
   intl_utils: ^2.4.0
-  material_color_utilities: ^0.1.3
-  boxy: ^2.0.5+1
-  responsive_builder: ^0.4.2
- 
-
-      
-            
- 
-  
-
+  material_color_utilities: ^0.1.5
 
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  dart_code_metrics: ^4.13.0
-  build_runner: ^2.1.7
-
+  dart_code_metrics: ^4.15.2
+  build_runner: ^2.1.11
+  golden_toolkit: ^0.13.0
 
   lint: ^1.8.2
 
@@ -62,4 +51,5 @@ flutter_intl:
   arb_dir: lib/src/localization
   output_dir: lib/src/localization_gen
   use_deferred_loading: false
+
 
